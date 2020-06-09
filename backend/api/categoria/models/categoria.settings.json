@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "name": "categoria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "articulos": {
+      "via": "categoria",
+      "collection": "articulo"
+    }
+  }
+}
