@@ -10,7 +10,7 @@
         >
           <div class="uk-card uk-card-muted">
             <div class="uk-card-media-top" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"> 
-              <img :src="api_url + articulos.image.url" alt="" height="100" />
+              <img :src="articulos.image.url" alt="" height="100" />
             </div>
             <div class="uk-card-body">
               <p
