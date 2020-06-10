@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "fs": "^0.0.1-security",
     "knex": "<0.20.0",
     "pg": "^8.2.1",
     "sqlite3": "latest",
