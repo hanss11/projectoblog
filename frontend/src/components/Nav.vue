@@ -4,14 +4,14 @@
       <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
           <li>
-            <router-link to="/">HanssBecerra</router-link>
+            <router-link to="/">HanssBecerra V0.1 Beta</router-link>
           </li>
         </ul>
       </div>
 
       <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
-            <li> <router-link to="/about">Sobre mi</router-link> </li>
+            <li> <router-link to="/about">Insta</router-link> </li>
           <li v-for="category in categorias" v-bind:key="category.id">
             <router-link
               :to="{ path: '/category/' + category.id }"

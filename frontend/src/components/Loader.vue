@@ -24,7 +24,7 @@ export default {
     open() {
       if (!this.pleaseWaitInstance) {
         this.pleaseWaitInstance = pleaseWait({
-          logo: 'https://cdn.dribbble.com/users/614270/screenshots/6388141/appbuild_drib02.gif',
+          logo: 'https://cdn.dribbble.com/users/636156/screenshots/1899530/jumping_squares.gif',
           backgroundColor: '#f46d3b',
           loadingHtml: '<p class="loading-message">A good day to you fine user!</p>'
         })

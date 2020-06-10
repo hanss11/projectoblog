@@ -19,6 +19,7 @@
     "please-wait": "^0.0.5",
     "vue": "^2.6.11",
     "vue-apollo": "^3.0.3",
+    "vue-gtag": "^1.6.2",
     "vue-instagram": "^3.0.0",
     "vue-markdown-it": "^0.9.4",
     "vue-router": "^3.1.6"

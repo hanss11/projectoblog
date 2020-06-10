@@ -6,11 +6,14 @@ import apolloClient from "./vue-apollo";
 
 import App from "./App.vue";
 
+import VueGtag from "vue-gtag";
+
 import VueInstagram from 'vue-instagram'
 Vue.use(VueInstagram);
 
 Vue.use(VueApollo);  
-Vue.use(VueRouter);  
+Vue.use(VueRouter);
+
 Vue.config.productionTip = false;
 
 const apolloProvider = new VueApollo({  
@@ -39,6 +42,18 @@ const router = new VueRouter({
     }
   ]
 });
+
+Vue.use(VueGtag, {
+  config: { id: "UA-168993608-1" },
+  pageTrackerTemplate(to) {
+    return {
+      page_title: 'amazing page',
+      page_path: to.path,
+      page_location: 'https://hanssbecerra.netlify.app/'
+    }
+  }
+}, router);
+
 
 new Vue({  
   apolloProvider,
