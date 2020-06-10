@@ -35,7 +35,7 @@
           >
             <div class="uk-card uk-card-muted" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
               <div class="uk-card-media-top">
-                <img :src="api_url + articulos.image.url" alt="" height="100" />
+                <img :src="articulos.image.url" alt="" height="100" />
               </div>
               <div class="uk-card-body">
                 <p
